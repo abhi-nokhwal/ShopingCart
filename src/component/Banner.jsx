@@ -4,7 +4,7 @@ function Banner() {
 
     
     const ImgArray = ["https://shopdressup.com/cdn/shop/files/2047.webp?v=1723557800&width=1920",
-       "./src/assets/landing3.jpg"];
+       "./src/asset/landing3.jpg"];
     
     let [index, setindex] = useState("");
     useEffect(() => {
