@@ -91,7 +91,7 @@ const Navbar = () => {
                   </IoCartOutline> */}
                   {
                       
-                state.items ? <div className=" absolute mt-3 mx-5 lg:mt-4 inline-flex justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">{ items.length}</div>:null
+                    items.length!=0 ? <div className=" absolute mt-3 mx-5 lg:mt-4 inline-flex justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">{ items.length}</div>:null
                   }
                   <Link to='./Cart'> <IoCartOutline className='text-3xl cursor-pointer relative inline-flex'>
                       <span></span>
